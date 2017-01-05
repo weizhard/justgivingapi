@@ -54,7 +54,7 @@ class JustgivingClient(object):
 	def __init__(self, rootDomain=None, APIKey=None, APIVersion=None, userName=None, password=None):
 		super(JustgivingClient, self).__init__()
 		self.rootDomain = rootDomain and rootDomain or 'https://api.justgiving.com/'
-		self.APIKey = APIKey or 'a7e1f389'
+		self.APIKey = APIKey or ''
 		self.APIVersion = APIVersion and APIVersion or 1
 		self.userName = userName and userName or ''
 		self.password = password and password or ''
